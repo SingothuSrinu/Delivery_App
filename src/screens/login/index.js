@@ -4,7 +4,7 @@ import { Text, View } from 'react-native'
 function Loginsample() {
   return (
    <View>
-    <Text>hi</Text>
+    <Text>hi...!</Text>
    </View>
   )
 }
