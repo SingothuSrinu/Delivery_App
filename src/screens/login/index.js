@@ -5,6 +5,7 @@ function Loginsample() {
   return (
    <View>
     <Text>hi...!</Text>
+    <Text>hello...!</Text>
    </View>
   )
 }
