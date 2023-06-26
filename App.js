@@ -1,12 +1,13 @@
 import React from 'react'
-import { Text, View } from 'react-native'
+import { SafeAreaView, Text, View } from 'react-native'
 import Colors from './src/asserts/colors'
+import MainNavigation from './src/MainNavigator'
 
 const App = () => {
   return (
-   <View style={{justifyContent:'center',alignItems:'center',flex:1}}>
-    <Text style={{color:Colors.red}}>hello...!</Text>
-   </View>
+    <SafeAreaView style={{ flex: 1 }}>
+      <MainNavigation />
+    </SafeAreaView>
   )
 }
 
