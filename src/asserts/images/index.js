@@ -1,7 +1,7 @@
-import React from "react";
+"use strict";
 
-
-const Images={
-
-}
-export default Images;
+export let Images = {
+    loginBg: require('../images/seaBG.png'),
+    loginBground: require('../images/seaBG.jpg'),
+};
+// export default Images;
